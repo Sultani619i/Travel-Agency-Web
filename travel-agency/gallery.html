@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Wanderlust Travels</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 330px;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 3px solid white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .gallery img:hover {
+      border-color: #ffb703;
+    }
+  </style>
+</head>
+<body>
+
+  <header style="position: fixed; width: 100%; z-index: 9999;">
+    <div class="logo">
+      <img src="../images/logo2.png">
+      Wanderlust Travels
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="packages.html">Packages</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="page">
+    <h1>Photo Gallery</h1>
+    <p>Moments captured by our happy travelers.</p>
+  </div>
+
+  <section>
+    <div class="container">
+      <h2>Travel Memories</h2>
+      <div class="gallery">
+        <img src="../images/mem1.jpg">
+        <img src="../images/mem2.jpg">
+        <img src="../images/mem3.jpg">
+        <img src="../images/mem4.jpg">
+        <img src="../images/mem5.jpg">
+        <img src="../images/mem6.jpg">
+      </div>
+    </div>
+  </section>
+
+  <section style="background-color: #ffffff;">
+    <div class="container">
+      <h2>Travel Video</h2>
+      <video src="../videos/tour_memories.mp4" controls poster="../images/poster.jpg"></video>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Wanderlust Travels. All rights reserved.</p>
+    <p>Email: <a href="mailto:info@wanderlust.com">info@wanderlust.com</a> | Phone: +92 300 1234567</p>
+  </footer>
+
+</body>
+</html>

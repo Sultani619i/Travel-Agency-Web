@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Wanderlust Travels</title>
+  <link rel="shortcut icon" href="../images/logo.png">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <style>
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .info-box {
+      background-color: #e8f4fb;
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    .info-box h3 {
+      color: #0b3d62;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header style="position: fixed; width: 100%; z-index: 9999;">
+    <div class="logo">
+      <img src="../images/logo2.png">
+      Wanderlust Travels
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="packages.html">Packages</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="page">
+    <h1>Contact Us</h1>
+    <p>Have a question or ready to book? Get in touch!</p>
+  </div>
+
+  <section>
+    <div class="container">
+
+      <div class="contact-info">
+        <div class="info-box">
+          <h3>Address</h3>
+          <p>123 Street Lodhran, Punjab, Pakistan</p>
+        </div>
+        <div class="info-box">
+          <h3>Phone</h3>
+          <p>+92 300 1234567</p>
+        </div>
+        <div class="info-box">
+          <h3>Email</h3>
+          <p>info@wanderlust.com</p>
+        </div>
+      </div>
+
+      <h2>Booking / Inquiry Form</h2>
+      <form action="#" method="post">
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+        <label for="package">Select Package</label>
+        <select id="package" name="package">
+          <option>Paris Explorer</option>
+          <option>Dubai Delight</option>
+          <option>Maldives Escape</option>
+          <option>Custom Package</option>
+        </select>
+
+        <label for="date">Travel Date</label>
+        <input type="date" id="date" name="date">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Wanderlust Travels. All rights reserved.</p>
+    <p>Email: <a href="mailto:info@wanderlust.com">info@wanderlust.com</a> | Phone: +92 300 1234567</p>
+  </footer>
+
+</body>
+</html>
