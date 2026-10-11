@@ -68,12 +68,6 @@ nav a:hover {
   margin-bottom: 25px;
 }
 
-.page img {
-  margin-top: 20px;
-  border-radius: 10px;
-  max-height: 400px;
-}
-
 .btn {
   display: inline-block;
   background-color: #ffb703;
@@ -116,6 +110,11 @@ section h2 {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   overflow: hidden;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
@@ -214,11 +213,6 @@ footer {
 
 footer a {
   color: #ffb703;
-}
-
-.card:hover{
-  transform: translateY(-10px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 700px) {
